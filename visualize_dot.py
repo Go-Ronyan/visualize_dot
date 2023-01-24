@@ -126,4 +126,4 @@ create_edges(notExistEdges, "tomato", 1)
 # render
 # dot.render()
 
-dot
+pyscript.write(dot,title)
